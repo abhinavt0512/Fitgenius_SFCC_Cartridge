@@ -1,0 +1,3 @@
+<isif condition="${dw.system.Site.getCurrent().getCustomPreferenceValue('fitGeniusFootScore') && pdict.showScoreFlag && pdict.customerLoggedIn}">
+        <div class="mb-3" name='aetrex_fitgenius_score_container' user="${pdict.hashedUserEmail}" sku="S680W" domain="${dw.system.Site.getCurrent().getCustomPreferenceValue('fitGeniusDomain')}" showinfoicon="true"></div>
+</isif>

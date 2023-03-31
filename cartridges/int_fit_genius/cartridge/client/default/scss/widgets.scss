@@ -1,0 +1,49 @@
+@import "abstracts/variable";
+.size-right-btn{
+    margin-top: 2.5rem;
+    background:$lite-red 0% 0% no-repeat padding-box;
+    border-radius: 1.625rem;
+    border: none;
+    padding: 0.4375rem 2.1875rem;
+    text-align: center;
+    font-size: $large;
+    color: $white;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.5rem;
+}
+.fit-genius-score-widget{
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    border-radius: 1.125rem;
+    min-width: 10.6875rem;
+    max-width: 12rem;
+    font-family: $sans-serif;
+    background: $lite-red;
+    color: $white;
+}
+
+.contanareClass{
+    margin: auto; width: 2%; min-width: 15.625rem;
+}
+
+.ImageClass{
+    width: 4.375rem; height: auto;
+}
+.ImageClassDic{
+    flex-grow: 2;
+}
+.hederText{
+    margin-right: 3.75rem; color: $silver-gray;
+}
+.subText{
+    
+}
+.page header~#maincontent .container .blue-remover{
+    a{
+        color:$silver-gray;
+    }
+}
+
+

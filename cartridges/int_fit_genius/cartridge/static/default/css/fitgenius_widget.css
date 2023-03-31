@@ -1,0 +1,9 @@
+@import url('fitgenius_widget_profile.css');
+@import url('widgets.css');
+@import url('styles.css');
+
+#aetrex_foot_profile_container {
+    font-family: 'Open Sans', sans-serif;
+    /* position: relative; */
+    width: 100%;
+}

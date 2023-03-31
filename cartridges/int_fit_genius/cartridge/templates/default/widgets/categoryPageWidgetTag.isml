@@ -1,0 +1,21 @@
+<style>
+div.fit-genius-score-widget{
+        background: ${dw.system.Site.getCurrent().getCustomPreferenceValue('widgetButtonColor')};
+        color: ${dw.system.Site.getCurrent().getCustomPreferenceValue('widgetFontColor')};
+}
+</style>
+<isif condition="${dw.system.Site.getCurrent().getCustomPreferenceValue('fitGeniusFootScore') && pdict.showScoreFlag && pdict.customerLoggedIn}">
+        <isif condition="${pdict.displayOnDetailsPage}">
+                <div class="fit-genius-score-widget text-center w-70 score-label mb-4">
+                        <span  class="p-1"><b>${Resource.msg('fitgenius.title', 'widgets', null)} </b>${Resource.msg('fitgenius.score', 'widgets', null)} ${pdict.fitGeniusScore}  &#9733; </span>
+                </div>
+
+            
+        <iselse/>
+                <div class="fit-genius-score-widget text-center w-70 ml-4 mr-4 score-label mb-4">
+                        <span  class="p-1"><b>${Resource.msg('fitgenius.title', 'widgets', null)} </b>${Resource.msg('fitgenius.score', 'widgets', null)} ${pdict.fitGeniusScore}  &#9733; </span>
+                </div>
+            
+        </isif>
+        
+</isif>

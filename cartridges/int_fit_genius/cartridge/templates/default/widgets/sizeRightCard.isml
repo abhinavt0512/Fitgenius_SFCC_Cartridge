@@ -1,0 +1,26 @@
+<isscript>
+        var assets = require('*/cartridge/scripts/assets');
+        assets.addCss('/css/widgets.css');
+</isscript>
+<isif condition="${dw.system.Site.getCurrent().getCustomPreferenceValue('sizeRightWidget')}">
+    <div class=" d-sm-none">
+                <div class="d-flex flex-container contanareClass">
+                    <div class="image ImageClassDic"><img 
+                            src="https://aetrex-fit-genius-widgets.s3.amazonaws.com/size-right/assets/images/latest_design/SizeRight_logo_118px.png"
+                            height="20px" width="21px" class="sizeRightlogo ImageClass"
+                            role="presentation" data-uw-rm-ima="un"></div>
+                    <div class="blue-remover ImageClassDic">
+                    <a href="${URLUtils.url('SizeRight-Show','gender','male')}">
+                        <div class="m-2 small sizerighttext hederText"
+                            >
+                            <div class="Header subText"><u >One Click for a Better
+                                    Fit!</u><sup >™</sup></div>
+                            <div class="subHeader ml-3"><u >(measure your feet)</u>
+                            </div>
+                        </div>
+                            </a>
+                        
+                    </div>
+                </div>
+    </div>
+</isif>

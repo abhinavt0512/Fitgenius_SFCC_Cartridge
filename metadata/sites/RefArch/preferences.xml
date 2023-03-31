@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences xmlns="http://www.demandware.com/xml/impex/preferences/2007-03-31">
+    <custom-preferences>
+        <all-instances/>
+        <development>
+            <preference preference-id="fitGeniusDomain">aetrex.com</preference>
+            <preference preference-id="fitGeniusFootProfile">false</preference>
+            <preference preference-id="fitGeniusFootScore">true</preference>
+            <preference preference-id="fitGeniusProfile">true</preference>
+            <preference preference-id="fitGeniusScoreCategories">
+                <value>mens-clothing-shorts</value>
+                <value>womens-accessories-shoes</value>
+            </preference>
+            <preference preference-id="integrationMode">test</preference>
+            <preference preference-id="sizeRightWidget">true</preference>
+            <preference preference-id="widgetButtonColor">#6D1919</preference>
+            <preference preference-id="widgetFontColor">white</preference>
+        </development>
+        <staging/>
+        <production/>
+    </custom-preferences>
+</preferences>
+

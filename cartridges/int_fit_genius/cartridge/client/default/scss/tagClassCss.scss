@@ -1,0 +1,10 @@
+@import "scss/abstracts/variable";
+
+.tagClass{
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    border-radius: 1.125rem;
+    min-width: 10.6875rem;
+    font-family: $sans-serif;
+    background: $lite-red;
+}

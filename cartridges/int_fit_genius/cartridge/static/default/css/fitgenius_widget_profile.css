@@ -1,0 +1,1071 @@
+@media (max-width: 575px) { 
+    #aetrex_profile_expanded_measurements_label_left {
+        left: 8px;
+    }
+    #aetrex_profile_expanded_measurements_label_right {
+        right: 8px;
+    }
+    #aetrex_profile_expanded_measurements_length_label_left {
+        left: 8px;
+    }
+    #aetrex_profile_expanded_measurements_length_label_right {
+        right: 8px;
+    }
+    #aetrex_profile_expanded_measurements_width_label_left {
+        left: 8px;
+    }
+    #aetrex_profile_expanded_measurements_width_label_right {
+        right: 8px;
+    }
+
+    #aetrex_profile_expanded_measurements_instep_label_left {
+        left: 8px;
+    }
+    #aetrex_profile_expanded_measurements_instep_label_right {
+        right: 8px;
+    }
+    
+    #aetrex_profile_expanded_measurements_arch_height_label_left {
+        left: 8px;
+    }
+    #aetrex_profile_expanded_measurements_arch_height_label_right {
+        right: 8px;
+    }
+
+    #aetrex_profile_expanded_measurements_girth_label_left {
+        left: 8px;
+    }
+    #aetrex_profile_expanded_measurements_girth_label_right {
+        right: 8px;
+    }
+    #aetrex_profile_expanded_med_shoe_size_text_small_left_value {
+        left: 16px;
+    }
+    #aetrex_profile_expanded_med_shoe_size_text_small_right_value {
+        right: 16px;
+    }
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) { 
+    #aetrex_no_profile_container{
+        max-width: 100%;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+    #aetrex_no_profile_container{
+        max-width: 325px;
+    }
+    #aetrex_foot_profile_container_right_footer,
+    #aetrex_foot_profile_container_right_header_top,
+    #aetrex_profile_container_left_img {
+        border-radius: 0px;
+    }
+    #aetrex_profile_container_left>img {
+        max-width: 100%;
+    }
+    #aetrex_foot_profile_container_recommendedSize {
+        font-size: 14px;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) { 
+    #aetrex_foot_profile_container_right_footer,
+    #aetrex_foot_profile_container_right_header_top,
+    #aetrex_profile_container_left_img {
+        border-radius: 0px;
+    }
+    #aetrex_profile_container_left>img {
+        max-width: 100%;
+    }
+    #aetrex_foot_profile_container_recommendedSize {
+        font-size: 16px;
+    }
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    #aetrex_no_profile_container{
+        max-width: 100%;
+    }
+    #aetrex_foot_profile_container_recommendedSize {
+        font-size: 18px;
+    }
+    #aetrex_profile_container_right {
+
+    }
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
+
+/* .aetrex_standard_border {
+    border: solid 1px #DBDBDB;
+    border-radius: 16px;
+} */
+#aetrex_profile_top_container {
+    max-width: 599px;
+    /* height: 520px; */
+    /* border: solid 1px #DBDBDB; */
+    border-radius: 16px;
+    background-color: #fff;
+    position: relative;
+    padding: 0px !important; /*override native bootstrap padding here*/
+}
+#aetrex_profile_dialog_body_button {
+    background: #CF6262 0% 0% no-repeat padding-box;
+    border-radius: 26px;
+    border: none;
+    padding: 8px 12px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1.8px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right:auto;
+}
+/* .imgOnTop {
+    z-index: 1;
+} */
+#aetrex_profile_header_container {
+    background-color: rgb(219, 219, 219);
+    height: 177px;
+    border-top: solid 1px #F2F2F2; /*needed for the border radius*/
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    margin-top:-2px; /*fix for header being offset */
+    margin-bottom: -100px;
+    position: relative;
+    padding-top: 26px;
+}
+#aetrex_profile_header_container_label{
+    font-size: 24px;
+    font-weight: bold;
+    /* letter-spacing: 1.44px; */
+    color: #000;
+    text-transform: uppercase;    
+}
+#aetrex_profile_dialog_body {
+    /* margin: 20px 110px 35px 110px; */
+    margin: 20px 5% 35px 5%;
+}
+#aetrex_profile_dialog_body>button {
+    margin-top: 40px;
+
+    background: #CF6262 0% 0% no-repeat padding-box;
+    border-radius: 26px;
+    border: none;
+    padding: 7px 35px 7px 35px;
+    text-align: center;
+    font-size: large;
+    /* letter-spacing: 1.8px; */
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right:auto;
+}
+#aetrex_profile_dialog_body_text_med_shoe_size {
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.35px;
+    color: #393939;
+}
+#aetrex_profile_dialog_body_text_med_shoe_size_value{
+    text-align: center;
+    font-size: x-large;
+    letter-spacing: 1.44px;
+    color: #D60000;
+    text-align: center;
+    margin-top: 25px;
+}
+#aetrex_profile_dialog_body_text_arch_type{
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.35px;
+    color: #393939;
+}
+#aetrex_profile_dialog_body_separator {
+    margin: 15px 0px 15px 0px;
+    border: none;
+    border-top: solid 1px #B4B4B4;
+}
+#aetrex_profile_dialog_body_small_left {
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 0.96px;
+    color: #393939;
+    opacity: 1;
+}
+#aetrex_profile_dialog_body_small_right {
+    text-align: right;
+    font-size: 16px;
+    letter-spacing: 0.96px;
+    color: #393939;
+    opacity: 1;
+}
+#aetrex_profile_dialog_body_small_left_value {
+    float: left;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    color: #D60000;
+    margin-top: 10px;
+}
+#aetrex_profile_dialog_body_small_right_value {
+    float: right;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    color: #D60000;
+    margin-top: 10px;
+}
+
+/* no profile */
+#aetrex_no_profile_container {
+    border-radius: 16px;
+    max-width: 617px;
+    min-height: 237px;
+    max-height: 300px;
+    background-color: #F2F2F2;
+    /* padding: 10px; */
+    text-align: center;
+    margin: 0px;
+}
+#aetrex_profile_container_left {
+    border-radius: 16px 0px 0px 16px;
+    text-align: center;
+    padding: 0px;    
+}
+#aetrex_profile_container_left>img {
+    /* border-radius: 10px;
+    border: solid 3px #fff; */
+    max-width: 249px;
+    height: 100%;
+}
+/* .undoCapGemAttribute {
+    text-transform: none !important;
+    font-weight: normal !important;
+    font-size: inherit !important;
+} */
+#aetrex_profile_container_right {
+    /* width: 100%; */
+    /* max-width:90%; */
+    font-size: 14px;
+    letter-spacing: 0.96px;
+    color: #707070;
+    text-align: center;
+    /* margin-top: 30px; */
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 0px 0px 0px;
+}
+#aetrex_foot_profile_container_right_header_sub {
+    height: 26px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 26px;
+    background-color: #D06263;
+    position: relative;
+}
+#aetrex_foot_profile_container_right_header_sub_text1 {
+    position: absolute;
+    right: 100px;
+}
+#aetrex_foot_profile_container_right_header_sub_text2 {
+    position: absolute;
+    right: 5px;
+}
+#aetrex_foot_profile_container_right_body_length {
+    font-size: 16px;
+    position: absolute;
+    top: 12px;
+    left: 30px;
+}
+#aetrex_foot_profile_container_right_body_length_text1 {
+    position: absolute;
+    top: 12px;
+    right: 100px;
+}
+#aetrex_foot_profile_container_right_body_length_text2 {
+    position: absolute;
+    top: 12px;
+    right: 30px;
+}
+#aetrex_foot_profile_container_right_body_width {
+    font-size: 16px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+#aetrex_foot_profile_container_right_body_width_text1 {
+    position: absolute;
+    top: 40px;
+    right: 100px;
+}
+#aetrex_foot_profile_container_right_body_width_text2 {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+}
+#aetrex_foot_profile_container_right_body_Instep {
+    font-size: 16px;
+    position: absolute;
+    top: 68px;
+    left: 30px;
+}
+#aetrex_foot_profile_container_right_body_Instep_text1 {
+    position: absolute;
+    top: 68px;
+    right: 100px;
+}
+#aetrex_foot_profile_container_right_body_Instep_text2 {
+    position: absolute;
+    top: 68px;
+    right: 30px;
+}
+#aetrex_foot_profile_container_right_body_Girth {
+    font-size: 16px;
+    position: absolute;
+    top: 96px;
+    left: 30px;
+}
+#aetrex_foot_profile_container_right_body_Girth_text1 {
+    position: absolute;
+    top: 96px;
+    right: 100px;
+}
+#aetrex_foot_profile_container_right_body_Girth_text2 {
+    position: absolute;
+    top: 96px;
+    right: 30px;
+}
+#aetrex_foot_profile_container_right_header_top {
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #363636;
+    height: 38px;
+    background-color: #C8C8C8;
+    border-radius: 0px 0px 0px 0px;
+    line-height: 40px;
+}
+#aetrex_foot_profile_container_right_footer {
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #363636;
+    height: 33px;
+    background-color: #C8C8C8;
+    border-radius: 0px 0px 0px 0px;
+    position: relative;
+}
+#aetrex_foot_profile_container_right_body {
+    position: relative;
+    width: auto;
+    height: 135px;
+    margin-top:5px;
+}
+#aetrex_foot_profile_container_recommendedSize {
+    margin-top: 20px;
+    /* width: 60%; */
+    white-space: nowrap;
+    max-width: fit-content;
+    line-height: 20px;
+    /* font-size: 18px; */
+    display: flex;
+    position: relative;
+    text-transform: none !important;
+    letter-spacing: 0.5px !important;
+    font-weight: normal !important;
+}
+/* .redText {
+    color: #D60000;
+    font-weight: bold;
+} */
+#aetrex_foot_profile_container_recommendedSize>span:last-child {
+    position: relative;
+    float: right;
+    top: -4px;
+}
+#aetrex_profile_container_right_body {
+    text-align: center;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 1.32px;
+    color: #575555;
+    padding: 0px 20px 23px 20px;
+}
+#aetrex_profile_container { 
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+}
+
+
+#aetrex_foot_profile_container_right {
+    width:326px;
+    height: 100%;
+    float: right;
+    font-size: 14px;
+    letter-spacing: 0.96px;
+    color: #707070;
+    text-align: center;
+}
+#aetrex_foot_profile_container_left {
+    border-radius: 16px 0px 0px 16px;
+    width: 291px;
+    float: left;
+}
+#aetrex_foot_profile_container_left>img {
+    border-radius: 16px 0px 0px 16px;
+    width: 291px;
+    height: 237px;
+}
+/* #aetrex_foot_profile_container {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    width: 100%;
+} */
+#aetrex_foot_profile_container_right_footer_text1 {
+    position: absolute;
+    left: 50px;
+    top: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #6C6C6C;
+    text-decoration: none;
+}
+#aetrex_foot_profile_container_right_footer_text2 {
+    position: absolute;
+    right: 50px;
+    top: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #6C6C6C;
+    text-decoration: none;
+}
+/* .linkActive {
+    text-decoration: underline !important;
+    font-weight: bold;
+    color: #363636;
+} */
+#aetrex_profile_container_right_body>button {
+    margin-left: auto;
+    margin-right: auto;
+}
+#aetrex_fitgenius_recommended_size_container_expanded_header_button {
+    background: #CF6262;
+    border-radius: 26px;
+    border: none;
+    vertical-align: middle;    
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    max-width: fit-content;
+    /* height: 26px; */
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 30px; */
+    width: auto;
+    padding: 5px 30px 5px 30px;
+ }
+/* end of no profile */
+
+/* fitgenius recommendedSize */
+#aetrex_fitgenius_recommended_size_container_expanded {
+    /* width: auto;
+    max-width: 970px;
+    height: auto; */
+    /* max-height: 493px; */
+    /* background: #fff;
+    position: absolute;
+    border-radius: 16px;
+    z-index: 999;
+    border: solid 1px #000;
+    top: 0px;
+    padding-bottom: 10px; */
+}
+#aetrex_fitgenius_recommended_size_container_expanded_header {
+   width: 100%;
+   max-height: 65px;
+}
+#aetrex_fitgenius_score_container_expanded_header_button {
+    background: #CF6262;
+    border-radius: 26px;
+    border: none;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 34px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    max-width: 453px;
+    height: 46px;
+    padding-top: 5px;
+    position: absolute;
+    top: 56px;
+    left: 258px;
+}
+/* fitgenius recommendedSize */
+
+/* foot profile dialog */
+/* .modal-content {
+    border-radius: 36px;
+} */
+#aetrex_profile_expanded_header_container {
+    background-color: rgb(219, 219, 219);
+    height: 180px;
+    border-top: solid 1px #F2F2F2; /*needed for the border radius*/
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+    text-align: center;
+    position: relative;
+}
+#aetrex_profile_expanded_header_container_label{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 1.44px;
+    color: #656565;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+#aetrex_profile_expanded_welcome_back_label {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #656565;
+    margin-top: 37px;
+}
+#aetrex_profile_expanded_recent_scan_container {
+    width: 303px;
+    height: 61px;  
+    margin-top: 23px;
+    margin-left: 20%;
+    margin-right: auto;
+    text-align: left;
+}
+#aetrex_profile_expanded_shoe_size_container {
+    width: 90%;
+    height: 295px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #838383;
+    color: #fff;
+    position: relative;
+}
+#aetrex_profile_expanded_measurements_container {
+    width: 90%;
+    height: 295px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 20px;
+    border: solid 1px #C9C9C9;
+    background-color: #fff;
+    color: #565656;
+    position: relative;
+}
+#aetrex_profile_expanded_med_shoe_size {
+    margin-top: 46px;
+    text-align: center;
+    font-size: 23px;
+    letter-spacing: 2.3px;
+    text-transform: uppercase;
+}
+#aetrex_profile_expanded_measurements_label {
+    margin-top: 46px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 2.3px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans' sans-serif;
+}
+#aetrex_profile_expanded_measurements_label_left {
+    position: absolute;
+    left: 69px;
+    top: 45px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    color: #B4B4B4;
+    font-family: 'Gill Sans' sans-serif;
+}
+#aetrex_profile_expanded_measurements_label_right {
+    position: absolute;
+    right: 69px;
+    top: 45px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    color: #B4B4B4;
+    font-family: 'Gill Sans' sans-serif;
+}
+#aetrex_profile_expanded_measurements_length_label {
+    margin-top: 27px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.96px;
+    color: #B4B4B4;    
+    font-family: 'Gill Sans' sans-serif;
+}
+#aetrex_profile_expanded_measurements_length_label_left {
+    position: absolute;
+    left: 69px;
+    top: 100px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1.08px;
+    color: #707070;
+    font-family: 'Gill Sans' sans-serif;
+}
+#aetrex_profile_expanded_measurements_length_label_right {
+    position: absolute;
+    right: 69px;
+    top: 100px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1.08px;
+    color: #707070;
+    font-family: 'Gill Sans' sans-serif;
+}
+#aetrex_profile_expanded_measurements_width_label {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.96px;
+    color: #B4B4B4;    
+    font-family: 'Gill Sans' sans-serif;
+}
+#aetrex_profile_expanded_measurements_width_label_left {
+    position: absolute;
+    left: 69px;
+    top: 135px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1.08px;
+    color: #707070;
+    font-family: 'Gill Sans' sans-serif;
+}
+#aetrex_profile_expanded_measurements_width_label_right {
+    position: absolute;
+    right: 69px;
+    top: 135px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1.08px;
+    color: #707070;
+    font-family: 'Gill Sans' sans-serif;
+}
+#aetrex_profile_expanded_measurements_instep_label {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.96px;
+    color: #B4B4B4;    
+    font-family: 'Gill Sans' sans-serif;
+}
+#aetrex_profile_expanded_measurements_instep_label_left {
+    position: absolute;
+    left: 69px;
+    top: 170px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1.08px;
+    color: #707070;
+    font-family: 'Gill Sans' sans-serif;
+}
+#aetrex_profile_expanded_measurements_instep_label_right {
+    position: absolute;
+    right: 69px;
+    top: 170px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1.08px;
+    color: #707070;
+    font-family: 'Gill Sans' sans-serif;
+}
+
+#aetrex_profile_expanded_measurements_arch_height_label {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.96px;
+    color: #B4B4B4;    
+    font-family: 'Gill Sans' sans-serif;
+}
+#aetrex_profile_expanded_measurements_arch_height_label_left {
+    position: absolute;
+    left: 69px;
+    top: 205px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1.08px;
+    color: #707070;
+    font-family: 'Gill Sans' sans-serif;
+}
+#aetrex_profile_expanded_measurements_arch_height_label_right {
+    position: absolute;
+    right: 69px;
+    top: 205px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1.08px;
+    color: #707070;
+    font-family: 'Gill Sans' sans-serif;
+}
+#aetrex_profile_expanded_measurements_girth_label {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.96px;
+    color: #B4B4B4;    
+    font-family: 'Gill Sans' sans-serif;
+}
+#aetrex_profile_expanded_measurements_girth_label_left {
+    position: absolute;
+    left: 69px;
+    top: 240px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1.08px;
+    color: #707070;
+    font-family: 'Gill Sans' sans-serif;
+}
+#aetrex_profile_expanded_measurements_girth_label_right {
+    position: absolute;
+    right: 69px;
+    top: 240px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1.08px;
+    color: #707070;
+    font-family: 'Gill Sans' sans-serif;
+}
+#aetrex_profile_expanded_med_shoe_size_value {
+    /* position: absolute;
+    left: 200px; */
+    margin-top: 20px;    
+    letter-spacing: 4px;
+    font-size: 40px;
+    font-family: 'Gill Sans' sans-serif;
+}
+#aetrex_profile_expanded_med_shoe_size_text_arch_type {
+    margin-top: 180px;
+    font-size: 23px;
+    letter-spacing: 2.3px;
+    text-transform: uppercase;    
+    font-family: 'Gill Sans' sans-serif;
+}
+#aetrex_profile_expanded_med_shoe_size_text_small_left {
+    position: absolute;
+    left: 55px;
+    top: 183px;
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 1.08px;
+    text-transform: uppercase;    
+    font-family: 'Gill Sans' sans-serif;
+}
+#aetrex_profile_expanded_med_shoe_size_text_small_right {
+    position: absolute;
+    right: 55px;
+    top: 183px;
+    text-align: right;
+    font-size: 18px;
+    letter-spacing: 1.08px;
+    text-transform: uppercase;    
+    font-family: 'Gill Sans' sans-serif;
+}
+#aetrex_profile_expanded_med_shoe_size_text_small_left_value {
+    position: absolute;
+    left: 55px;
+    top: 220px;
+    text-align: left;
+    font-size: 28px;
+    letter-spacing: 1.08px;
+    font-family: 'Gill Sans' sans-serif;
+}
+#aetrex_profile_expanded_med_shoe_size_text_small_right_value {
+    position: absolute;
+    right: 55px;
+    top: 220px;
+    text-align: right;
+    font-size: 28px;
+    letter-spacing: 1.08px;
+    font-family: 'Gill Sans' sans-serif;
+}
+#aetrex_profile_expanded_recent_scan_date_container {
+    /* border: solid 1px lime; */
+    width: 350px;
+    margin-top: 23px;
+    margin-left: 20%;
+    margin-right: auto;
+    text-align: left;
+    position: relative;
+}
+#aetrex_profile_expanded_recent_scan_date_pin_img {
+    position: absolute;
+    left: -80px;
+    top: -85px;
+}
+#aetrex_profile_expanded_recent_scan_date_calendar_img {
+    position: absolute;
+    left: -80px;
+    top: -15px;
+}
+#aetrex_profile_expanded_recent_scan_label {   
+    font-size: 20px;
+    letter-spacing: 0.44px;
+    color: #656565;  
+}
+#aetrex_profile_expanded_recent_scan_date_label {
+    font-size: 20px;
+    letter-spacing: 0.44px;
+    color: #656565; 
+}
+#aetrex_profile_expanded_recent_scan_value_label {
+    font-size: 25px;
+    letter-spacing: 0.55px;
+    color: #656565;
+}
+#aetrex_profile_expanded_header_close_cmd {
+    position: absolute;
+    color: #393939;
+    text-transform: uppercase;
+    top: 40px;
+    right: 40px;
+    border: none;
+    background: transparent;
+    font-size: 28px;
+}
+#aetrex_profile_dialog_body_tab_container {
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+#aetrex_profile_dialog_body_tab_inner_container {
+    /* border: solid 1px lime; */
+    /* height: 526px; */
+    max-width: 420px;
+    height: 400px;
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+/* .aetrex_profile_dialog_body_tab_button_selected {
+    background: #CF6262 !important;
+    color: #FFFFFF !important;
+    border: solid 1px #CF6262 !important;
+} */
+#aetrex_profile_dialog_body_tab_button1 {
+    border: solid 1px black;
+    border-radius: 17px 17px 0px 0px;
+    padding: 5px 13px 5px 13px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1.8px;
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+    height: 68px;
+    margin-left: auto;
+    margin-right:4px;
+    /* width: 40%; */
+}
+#aetrex_profile_dialog_body_tab_button2 {
+    border: solid 1px black;
+    border-radius: 17px 17px 0px 0px;
+    padding: 5px 13px 5px 13px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1.8px;
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+    height: 68px;
+    margin-left: auto;
+    /* width: 50%; */
+}
+#aetrex_profile_dialog_body_tab_inner_container_image {
+    /* border: solid 1px red; */
+    width: 100%;
+    height: 100%;
+    
+}
+/* .modal-dialog {
+    max-width: 95%;
+} */
+/* end of foot profile dialog */
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 376px) and (max-width: 768px) {
+    #aetrex_profile_dialog_body_tab_button1 {
+        padding: 5px 15px 5px 15px;
+    }
+    #aetrex_profile_dialog_body_tab_button2 {
+        padding: 5px 15px 5px 15px;
+    }
+    #aetrex_profile_expanded_header_container_label{
+        font-size: 56px;
+    }
+    #aetrex_profile_expanded_recent_scan_date_container {
+        margin-left: 36%;
+    }
+    #aetrex_profile_expanded_recent_scan_container {
+        margin-left: 36%;
+    }
+    /* .modal-dialog {
+        max-width: 90%;
+    } */
+    #aetrex_profile_expanded_measurements_label {
+        margin-top: 47px;
+        font-size: 15px;
+    }
+    #aetrex_profile_expanded_measurements_container, #aetrex_profile_expanded_shoe_size_container {
+        width: 90%;
+    }
+    #aetrex_fitgenius_recommended_size_container_expanded_header_button {
+        /* height: 36px;
+        font-size: x-large;         */
+        /* max-width: 553px; */
+     }
+    #aetrex_foot_profile_container_recommendedSize>span:last-child {
+        position: relative;
+        float: right;
+        top: -4px;
+    }
+    #aetrex_foot_profile_container_recommendedSize {
+        margin-top: 40px;
+        /* width: 90%; */
+    }
+    #aetrex_foot_profile_container_right_body_Girth_text1 {
+        right: 120px;
+    }
+    #aetrex_foot_profile_container_right_body_Girth_text2 {
+        right: 50px;
+    }
+    #aetrex_foot_profile_container_right_body_Instep_text1 {
+        right: 120px;
+    }
+    #aetrex_foot_profile_container_right_body_Instep_text2 {
+        right: 50px;
+    } 
+    #aetrex_foot_profile_container_right_body_width_text1 {
+        right: 120px;
+    }
+    #aetrex_foot_profile_container_right_body_width_text2 {
+        right: 50px;
+    }
+    #aetrex_foot_profile_container_right_body_length_text1 {
+        right: 120px;
+    }
+    #aetrex_foot_profile_container_right_body_length_text2 {
+        right: 50px;
+    }
+    #aetrex_foot_profile_container_right_header_sub_text1 {
+        right: 135px;
+    }
+    #aetrex_foot_profile_container_right_header_sub_text2 {
+        right: 20px;
+    }
+    #aetrex_foot_profile_container_right_header_top {
+        border-radius: 0px 17px 0px 0px;
+    }
+    #aetrex_foot_profile_container_right_footer {
+        border-radius: 0px 0px 17px 0px;
+    }
+    #aetrex_profile_container_right_body {
+        padding: 68px 20px 23px 20px;
+    }
+    #aetrex_profile_container_left>img {
+        border-radius: 16px 0px 0px 16px;
+        border: none;
+        height: 100%;
+        width: 100%;
+    }
+    #aetrex_no_profile_container {
+        padding: 0px;
+    }
+    #aetrex_profile_container_left {
+        float: left;
+    }
+    #aetrex_profile_container_right {
+        max-width: auto;
+        height: 100%;
+        padding: 0px;
+        border-radius: 0px 17px 17px 0px;
+        margin-top: 0px;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+    /* .modal-dialog {
+        max-width: 80%;
+    } */
+    #aetrex_profile_expanded_measurements_label {
+        margin-top: 46px;
+        font-size: 16px;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* .modal-dialog {
+        max-width: 70%;
+    } */
+    #aetrex_profile_expanded_measurements_label {
+        margin-top: 45px;
+        font-size: 18px;
+    }
+    #aetrex_foot_profile_container_right_header_top {
+        border-radius: 17px 17px 0px 0px;
+    }
+    #aetrex_foot_profile_container_right_footer {
+        border-radius: 0px 0px 17px 17px;
+    }
+    #aetrex_profile_container_left>img {
+        border-radius: 16px;
+    }
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1400px) {
+    /* .modal-dialog {
+        max-width: 60%;
+    } */
+    #aetrex_profile_expanded_measurements_label {
+        margin-top: 41px;
+        font-size: 23px;
+    }
+    #aetrex_profile_expanded_measurements_container, #aetrex_profile_expanded_shoe_size_container {
+        width: 70%;
+    }
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    #aetrex_profile_expanded_measurements_container, #aetrex_profile_expanded_shoe_size_container {
+        width: 50%;
+    }
+ }

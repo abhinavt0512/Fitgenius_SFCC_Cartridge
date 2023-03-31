@@ -1,0 +1,8 @@
+<isdecorate template="common/layout/sizeRight">
+    <isscript>
+        var assets = require('*/cartridge/scripts/assets');
+        assets.addJs('/js/widget.js');
+</isscript>
+  <size-right session_id="${pdict.userSessionId}" name="aetrex.com" gender="${pdict.gender}"></size-right>
+</isdecorate>
+

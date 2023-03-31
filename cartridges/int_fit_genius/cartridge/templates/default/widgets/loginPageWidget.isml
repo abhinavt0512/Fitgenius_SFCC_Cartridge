@@ -1,0 +1,28 @@
+<isscript>
+        var assets = require('*/cartridge/scripts/assets');
+        assets.addJs('/js/fitgenius_widget.js');
+        assets.addCss('/css/fitgenius_widget.css');
+</isscript>
+<style>
+#aetrex_profile_container .scan-locator-btn {
+    background: ${dw.system.Site.getCurrent().getCustomPreferenceValue('widgetButtonColor')};
+    color: ${dw.system.Site.getCurrent().getCustomPreferenceValue('widgetFontColor')};
+}
+#aetrex_profile_container button.aetrex_profile_top_container_expanded {
+    background: ${dw.system.Site.getCurrent().getCustomPreferenceValue('widgetButtonColor')};
+    color: ${dw.system.Site.getCurrent().getCustomPreferenceValue('widgetFontColor')};
+}
+#aetrex_profile_container div.pressure-value {
+    color: ${dw.system.Site.getCurrent().getCustomPreferenceValue('widgetButtonColor')};
+}
+
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+ <isif condition="${dw.system.Site.getCurrent().getCustomPreferenceValue('fitGeniusProfile')}">
+    <iscomment>
+        Fit genius profile widget
+    </iscomment>
+        <div id='aetrex_profile_container' class="aetrex-profile-container" user="${pdict.hashedUserEmail}"></div>
+</isif>

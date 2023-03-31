@@ -1,0 +1,21 @@
+<isscript>
+        var assets = require('*/cartridge/scripts/assets');
+        assets.addJs('/js/fitgenius_widget.js');
+        assets.addCss('/css/fitgenius_widget.css');
+</isscript>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+<isif condition="${dw.system.Site.getCurrent().getCustomPreferenceValue('fitGeniusFootProfile')}">
+    
+    <div id='aetrex_foot_profile_container' sku="S680W" user="${pdict.hashedUserEmail}" domain="${dw.system.Site.getCurrent().getCustomPreferenceValue('fitGeniusDomain')}"></div>
+    
+</isif>
+<style>
+#aetrex_foot_profile_container span.size{
+    color: ${dw.system.Site.getCurrent().getCustomPreferenceValue('widgetButtonColor')};
+}
+#aetrex_foot_profile_container div.sub-title{
+    background: ${dw.system.Site.getCurrent().getCustomPreferenceValue('widgetButtonColor')};
+}
+</style>

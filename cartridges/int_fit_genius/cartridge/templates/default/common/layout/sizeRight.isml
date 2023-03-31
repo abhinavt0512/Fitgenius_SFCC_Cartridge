@@ -1,0 +1,18 @@
+<iscontent type="text/html" charset="UTF-8" compact="true"/>
+
+<isinclude template="/components/modules" sf-toolkit="off" />
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://s3.amazonaws.com/aetrex-fit-genius-widgets/size-right/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <isinclude sf-toolkit="off" template="/common/scripts" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div role="main" id="maincontent">
+                <isreplace/>
+            </div>
+</body>
+<script src="https://s3.amazonaws.com/aetrex-fit-genius-widgets/size-right/sizeright_widget.js"></script>
+</html>
