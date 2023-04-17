@@ -1,6 +1,7 @@
 
 $(document).ready(function(){
    window.addEventListener("load", afterLoaded,false);
+   window.addEventListener("load", selectSize,false);
    window.addEventListener("resize", resizeFn);
   });
   
@@ -27,3 +28,10 @@ $('body').on('click', '.first-page-closeBtn, .stepCloseBtn, .video-page-closeBtn
     $('body').css('display','none');
     history.back();
 });
+
+
+$('#aetrex_foot_profile_container').on('DOMSubtreeModified', function(){
+    console.log('changed');
+    var footwearSize = $('#aetrex_foot_profile_container').find('span.size').html();
+    console.log(footwearSize);
+  });

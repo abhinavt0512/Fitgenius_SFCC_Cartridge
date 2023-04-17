@@ -31,10 +31,12 @@ server.prepend('Show', function (req, res, next) {
         var profileEmail = Resource.msg('fitgenius.testHashedEmail', 'widgets', null);
         var productList;
         var profileData;
+        var fitgeniusProductId
 
         if (integrationMode == 'test') {
 
             productList=["AE210W"];
+            fitgeniusProductId = 'S680W';
             
             profileData =  {domain: siteDomain, profile_email: profileEmail,skus:productList};
             var serviceResponse = fitGeniusScoreService.getScore.call(JSON.stringify(profileData));
@@ -45,6 +47,7 @@ server.prepend('Show', function (req, res, next) {
         }
         else if (integrationMode == 'live') {
             productList=[req.querystring.pid];
+            fitgeniusProductId = req.querystring.pid;
             profileData =  {domain: siteDomain, profile_email: customerEmail,skus:productList};
             var serviceResponse = fitGeniusScoreService.getScore.call(JSON.stringify(profileData));
             if (serviceResponse.status == 'OK') {
@@ -58,7 +61,8 @@ server.prepend('Show', function (req, res, next) {
             customerLoggedIn: customerLoggedIn,
             showScoreFlag: true,
             displayOnDetailsPage: true,
-            fitGeniusScore: fitGeniusScore
+            fitGeniusScore: fitGeniusScore,
+            fitgeniusProductId:fitgeniusProductId
         });
     }
 

@@ -1,5 +1,6 @@
 var LocalServiceRegistry = require('dw/svc/LocalServiceRegistry');
 var Site = require('dw/system/Site');
+var Logger = require('dw/system/Logger');
 var customLogs = Logger.getLogger('fitgenius-Logs', 'fitgenius-logs');
 var customErrors = Logger.getLogger('fitgenius-errors', 'fitgenius-logs');
 
