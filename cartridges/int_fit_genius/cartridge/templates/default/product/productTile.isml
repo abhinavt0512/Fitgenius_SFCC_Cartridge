@@ -4,7 +4,7 @@
     <!-- dwMarker="product" dwContentID="${product.uuid}" -->
     
     <iscomment> <isinclude template="widgets/categoryPageWidget" /> </iscomment>
-    <isinclude template="widgets/categoryPageWidgetTag" />
+   <isinclude template="widgets/categoryPageWidget" />
     <isinclude template="product/components/productTileImage" />
 
     <div class="tile-body">

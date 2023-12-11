@@ -1,0 +1,11 @@
+<isdecorate template="common/layout/page">
+    <isscript>
+        var assets = require('*/cartridge/scripts/assets');
+        assets.addJs('/js/search.js');
+        assets.addCss('/css/search.css');
+        assets.addCss('https://aetrex-fit-genius-widgets.s3.amazonaws.com/client/aetrex/fitgenius_widget.css');
+        assets.addJs('https://aetrex-fit-genius-widgets.s3.amazonaws.com/client/aetrex/fitgenius_widget.js');
+    </isscript>
+    
+    <isinclude template="search/searchResultsNoDecorator" />
+</isdecorate>

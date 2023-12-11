@@ -1,7 +1,7 @@
 <isscript>
         var assets = require('*/cartridge/scripts/assets');
-        assets.addJs('/js/fitgenius_widget.js');
-        assets.addCss('/css/fitgenius_widget.css');
+        assets.addJs('https://aetrex-fit-genius-widgets.s3.amazonaws.com/fit-genius-qa/fitgenius_widget.js');
+        assets.addCss('https://aetrex-fit-genius-widgets.s3.amazonaws.com/fit-genius-qa/fitgenius_widget.css');
 </isscript>
 <style>
 #aetrex_profile_container .scan-locator-btn {
@@ -24,5 +24,5 @@
     <iscomment>
         Fit genius profile widget
     </iscomment>
-        <div id='aetrex_profile_container' class="aetrex-profile-container" user="${pdict.hashedUserEmail}"></div>
+        <div id='aetrex_profile_container' class="aetrex-profile-container" user="fde464a6c12d347b895e69efff8dbfdd1f2fc79241e8548a19ce6771f0c878e7"></div>
 </isif>

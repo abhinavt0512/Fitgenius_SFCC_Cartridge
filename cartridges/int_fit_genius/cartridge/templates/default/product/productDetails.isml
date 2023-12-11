@@ -45,7 +45,7 @@
                     <div class="row">
                         <div class="col">
                             <h1 class="product-name hidden-sm-down">${product.productName}</h1>
-                            <isinclude template="widgets/categoryPageWidgetTag" />
+                            <isinclude template="widgets/categoryPageWidget" />
                         </div>
                     </div>
 
@@ -132,13 +132,7 @@
                             <isinclude template="product/components/socialIcons" />
                         </div>
                     </div>
-                    <isif condition="${pdict.customerLoggedIn}">
-                        <isinclude template="widgets/productDetailsPageWidget" />
-                    <iselse/>
-                        <isinclude template="widgets/sizeRightCard"/>
-                        
-                        
-                    </isif>
+                   <isinclude template="widgets/productDetailsPageWidget" />
                 </div>
             </div>
 
